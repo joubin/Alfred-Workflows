@@ -15,7 +15,7 @@ Installation
 
 You can download the ready-made extension here: [download](http://cl.ly/3d0r410u3P1X)  
 Alternatively clone the repository to you local machine.  
-Simply doubleclick `AirDrop.alfredworkflow` to install.
+Simply doubleclick `UnmountAllalfredworkflow` to install.
 I have also included the the script I used inside the source folder if you'd like to recreate this
 
 Usage
