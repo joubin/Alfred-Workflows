@@ -24,6 +24,7 @@ Usage
 Typing `unmount` in Alfred and press enter. 
 
 A notification will pop open when the process starts
+
 ![](http://i.imgur.com/Twdo3cv.png)
 
 and another when the process has finished
