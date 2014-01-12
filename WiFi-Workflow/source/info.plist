@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>me.joubin.wifi-alfred</string>
+	<key>connections</key>
+	<dict>
+		<key>E114BEC0-FF99-4B1C-A09B-5F316B379716</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CADE12D7-76DD-4A3D-9DFE-928FAFF97356</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D4BBE18-0220-49E6-9760-198D2E141F18</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Joubin Jabbari</string>
+	<key>description</key>
+	<string>Control WiFi from the commandline</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>WiFi</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>wifi</string>
+				<key>subtext</key>
+				<string>On | Off | Restart</string>
+				<key>text</key>
+				<string>Wifi</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E114BEC0-FF99-4B1C-A09B-5F316B379716</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<true/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>2</integer>
+				<key>removeextension</key>
+				<true/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Wifi</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CADE12D7-76DD-4A3D-9DFE-928FAFF97356</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>if [ {query} == on ]
+then
+networksetup -setairportpower en0 on
+fi
+
+if [ {query} == off ]
+then
+networksetup -setairportpower en0 off
+fi
+
+if [ {query} == restart ]
+then
+networksetup -setairportpower en0 down &amp;&amp; networksetup -setairportpower en0 on
+fi</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4D4BBE18-0220-49E6-9760-198D2E141F18</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>4D4BBE18-0220-49E6-9760-198D2E141F18</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>CADE12D7-76DD-4A3D-9DFE-928FAFF97356</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>E114BEC0-FF99-4B1C-A09B-5F316B379716</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>joubin.me</string>
+</dict>
+</plist>
