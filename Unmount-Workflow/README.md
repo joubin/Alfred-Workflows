@@ -1,7 +1,8 @@
 Alfred Unmount Workflow
 =======================
 
-A workflow for [Alfred App](http://www.alfredapp.com) 2.0+ that will unmount all physically connected devices![](http://i.imgur.com/gxaeZ3k.png?1)
+A workflow for [Alfred App](http://www.alfredapp.com) 2.0+ that will unmount all physically connected devices!
+![](http://i.imgur.com/gxaeZ3k.png?1)
 
 Why?
 ======
