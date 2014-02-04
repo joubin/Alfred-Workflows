@@ -6,7 +6,7 @@ A workflow for [Alfred App](http://www.alfredapp.com) 2.0+ that will provide a q
 
 Why?
 ======
-I made this plugin because I hate to move my had away from the keyboard and shortcuts allow me to do that.
+I made this plugin because I hate to move my hand away from the keyboard and shortcuts allow me to do that.
 
 Mainly I made this because I use a dock at home on my MBA, the dock provides me with ethernet connections which is much faster inside my house.
 
@@ -18,7 +18,7 @@ Alternatively clone the repository to you local machine.
 Simply doubleclick `WiFi` to install.
 I have also included the the script I used inside the source folder if you'd like to recreate this.
 
-You should never install workflows without being able to read the source code
+You should never install workflows without being able to read the source code.
 
 Usage
 ======
