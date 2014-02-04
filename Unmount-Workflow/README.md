@@ -5,18 +5,18 @@ A workflow for [Alfred App](http://www.alfredapp.com) 2.0+ that will unmount all
 
 Why?
 ======
-If you're like me, you like to use external displays while you're on you're laptop at home.
+If you're like me, you like to use external displays while you're on your laptop at home.
 
-AND If you're like me, you would also have your Time Machine hard drive along with other drives connected to your computer either through the thunderbolt on the displays, or a usb hub.
+AND if you're like me, you would also have your Time Machine hard drive along with other drives connected to your computer either through the thunderbolt on the displays, or a usb hub.
 
-But you can't just unplug it without getting yelled at by OSX and instead of unmounting them all by hand, you can just run this
+But you can't just unplug it without getting yelled at by OSX and, instead of unmounting them all by hand, you can just run this
 Installation
 ======
 
 You can download the ready-made extension here: [download](http://cl.ly/3d0r410u3P1X)  
 Alternatively clone the repository to you local machine.  
 Simply doubleclick `UnmountAllalfredworkflow` to install.
-I have also included the the script I used inside the source folder if you'd like to recreate this
+I have also included the the script I used inside the source folder if you'd like to recreate this.
 
 Usage
 ======
